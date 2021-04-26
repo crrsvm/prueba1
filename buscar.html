@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Buscar</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container-fluid menu">
+        <div class="row">
+            <div class="col-2">
+                <nav class="navbar navbar-expand-md">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Buscar</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                    </ul>
+                    <!-- <button> 
+                        <span></span>
+                    </button>-->
+                </nav>
+            </div>
+			
+			 <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+		<div class="col-sm-8">
+			<!-- CREACIÓN NUEVA FILA DENTRO DE LA COLUMNA DE TAMAÑO 8 -->
+			<div class="row">
+			  <!-- DIV DE IMAGEN DE TAMAÑO 25% EN RELACIÓN A LA COLUMNA DE TAMAÑO 8 -->
+			  <div class="w-25">
+				<!-- IMAGEN QUE OCUPA 100% DEL DIV ANTERIOR -->
+				<img class="w-100" src="img/logo.jpg" alt="logo">
+			  </div>
+			  <!-- DIV DE TITULO DE TAMAÑO 75% EN RELACIÓN A LA COLUMNA DE TAMAÑO 8 -->
+			  <div class="w-75">
+				<!-- TITULO PRINCIPAL DEL CONTENIDO DE LA PÁGINA -->
+				<h1> SITIOS Y PARCELAS</h1>
+			  </div>
+
+	<div class="contenedor">
+		<form action="">
+			<div class="selectbox">
+				<div class="select" id="select">
+					<div class="contenido-select">
+						<h1 class="titulo">Selecciona una Comuna</h1>
+					</div>
+					<i class="fas fa-angle-down"></i>
+				</div>
+
+				<div class="opciones" id="opciones">
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<div class="textos">
+								<h1 class="titulo">Santiago</h1>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+
+							<div class="textos">
+								<h1 class="titulo">Providencia</h1>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<div class="textos">
+								<h1 class="titulo">Renca</h1>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+
+							<div class="textos">
+								<h1 class="titulo">La Florida</h1>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<div class="textos">
+								<h1 class="titulo">Vitacura</h1>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<input type="hidden" name="comunas" id="inputSelect" value="">
+		</form>
+
+	
+		<div class="contenedor">
+		<form action="">
+			<div class="selectbox">
+				<div class="select" id="select">
+					<div class="contenido-select">
+						<h1 class="titulo">Selecciona una Region</h1>
+					</div>
+					<i class="fas fa-angle-down"></i>
+				</div>
+
+				<div class="opciones" id="opciones">
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<div class="textos">
+								<h1 class="titulo">Region Metropolitana</h1>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<div class="textos">
+								<h1 class="titulo">Otras Regiones</h1>
+
+							</div>
+						</div>
+					</a>
+
+
+					<input type="hidden" name="comunas" id="inputSelect" value="">
+				</form>					
+
+			</div>
+		</div>
+
+			<div class="search">
+				<input
+				  type="text"
+				  class="search-input"				  
+				/>
+				<button class="search-btn">Buscar</button>
+			  </div>
+	
+	
+
+	<script src="js/main.js"></script>
+</body>
+</html>
