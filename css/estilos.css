@@ -1,0 +1,18 @@
+.land{
+    display: inline-block;
+    width: 160px;
+    height: 140px;
+}
+
+.borde{
+    border-width: 3px;
+    border-style: solid;
+}
+.menu{
+    display: inline;
+    width: 200px;
+}
+.slide{
+    width: 600px;
+    height: 500px;
+}
